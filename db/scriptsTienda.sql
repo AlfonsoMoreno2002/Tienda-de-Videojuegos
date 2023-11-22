@@ -2,7 +2,7 @@ CREATE DATABASE tienda;
 USE tienda;
 -- Crear la tabla de Productos
 CREATE TABLE Productos (
-    producto_id INT AUTO_INCREMENT PRIMARY KEY,
+    producto_id INT PRIMARY KEY AUTO_INCREMENT,
     nombre VARCHAR(255) NOT NULL,
     descripcion TEXT,
     precio DECIMAL(10, 2) NOT NULL,
